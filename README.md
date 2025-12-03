@@ -4,6 +4,22 @@
 **Professor:** Anderson Soares  
 **Autor:** [João Pedro Balduino Leitão]  
 
+---
+
+## 📹 Vídeo Demonstrativo
+
+**Link do vídeo:** [https://www.youtube.com/watch?v=V4mlKvZ3hW0]
+
+O vídeo demonstra:
+- ✅ Execução da interface gráfica Streamlit
+- ✅ Todas as operações básicas (adicionar/remover vértices e arestas)
+- ✅ Execução dos 4 algoritmos (BFS, DFS, Dijkstra, Bellman-Ford)
+- ✅ Explicação das decisões de implementação
+- ✅ Visualização do código-fonte
+
+**Duração:** 2-5 minutos
+---
+
 ## 📋 Descrição do Projeto
 
 Este projeto implementa uma estrutura de dados de **Grafo** com aplicação prática em um sistema de **rotas de cidades**. O sistema permite gerenciar cidades (vértices) e rotas (arestas) entre elas, além de executar algoritmos clássicos de grafos para busca e otimização de caminhos.
@@ -18,7 +34,7 @@ Simular um sistema de rotas entre cidades brasileiras, calculando:
 
 ## 🚀 Funcionalidades Implementadas
 
-### ✅ Requisitos Mínimos (7-8 pontos)
+### ✅ Requisitos Mínimos 
 - [x] Representação do grafo usando **lista de adjacência**
 - [x] Adicionar vértice (cidade)
 - [x] Remover vértice (cidade)
@@ -27,7 +43,7 @@ Simular um sistema de rotas entre cidades brasileiras, calculando:
 - [x] Exibir o grafo em formato textual
 - [x] Caso de uso: Sistema de rotas de cidades
 
-### ✅ Funcionalidades Avançadas (9-10 pontos)
+### ✅ Funcionalidades Avançadas 
 
 #### Algoritmos Clássicos Implementados:
 1. **BFS (Busca em Largura)**
@@ -49,7 +65,7 @@ Simular um sistema de rotas entre cidades brasileiras, calculando:
    - Detecta ciclos negativos no grafo
    - Funciona com pesos negativos
 
-### ✅ Bônus (+0,5 ponto)
+### ✅ Bônus
 - [x] **Interface gráfica com Streamlit**
   - Visualização interativa do grafo
   - Execução de algoritmos com um clique
@@ -225,55 +241,6 @@ Níveis:
 - **Bellman-Ford:** O(V × E) - tempo
 
 ---
-
-## 📹 Vídeo Demonstrativo
-
-**Link do vídeo:** [INSIRA AQUI O LINK DO YOUTUBE]
-
-O vídeo demonstra:
-- ✅ Execução da interface gráfica Streamlit
-- ✅ Todas as operações básicas (adicionar/remover vértices e arestas)
-- ✅ Execução dos 4 algoritmos (BFS, DFS, Dijkstra, Bellman-Ford)
-- ✅ Explicação das decisões de implementação
-- ✅ Visualização do código-fonte
-
-**Duração:** 2-5 minutos
-
----
-
-## 🧪 Testes Realizados
-
-- ✅ Adicionar e remover vértices
-- ✅ Adicionar e remover arestas
-- ✅ BFS em diferentes vértices iniciais
-- ✅ DFS em diferentes vértices iniciais
-- ✅ Dijkstra entre diversos pares de cidades
-- ✅ Bellman-Ford para detecção de ciclos
-- ✅ Tratamento de erros (vértices inexistentes, etc.)
-- ✅ Interface gráfica com múltiplos cenários
-- ✅ Carregamento de exemplo pré-configurado
-
----
-
-## 📊 Requisitos Atendidos
-
-| Requisito | Status | Pontuação |
-|-----------|--------|-----------|
-| Estrutura de grafo com lista de adjacência | ✅ | 2.0 |
-| Operações básicas (add/remove vértices e arestas) | ✅ | 2.0 |
-| Caso de uso demonstrativo | ✅ | - |
-| Código organizado e comentado | ✅ | 2.0 |
-| BFS implementado corretamente | ✅ | 0.5 |
-| DFS implementado corretamente | ✅ | 0.5 |
-| Dijkstra implementado corretamente | ✅ | 0.5 |
-| Bellman-Ford implementado corretamente | ✅ | 0.5 |
-| README completo | ✅ | 1.0 |
-| Vídeo demonstrativo | ✅ | 1.0 |
-| **Interface gráfica (BÔNUS)** | ✅ | **+0.5** |
-| **TOTAL** | | **10.5/10** |
-
----
-
 ## 🛠️ Dependências
 ```txt
 streamlit>=1.28.0
@@ -294,8 +261,6 @@ pip install -r requirements.txt
 **Disciplina:** Estrutura de Dados  
 **Professor:** Anderson Soares  
 **Data de Entrega:** 05/12/2025
-
-Este projeto foi desenvolvido como trabalho acadêmico para a disciplina de Estrutura de Dados.
 
 ---
 
